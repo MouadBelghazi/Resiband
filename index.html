@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sticky NavBar | For a Website</title>
+    <link rel="stylesheet" href="final.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css"/>
+    
+  </head>
+  <body>
+<!------------------------Header of the website------------------>
+    <header>
+      <div href="#" class="brand"><img src="images/noir.png"></div>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="#Home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#Buy">Buy</a>
+        <a href="#contact">Contact</a>
+        <div id="cart" href="#"><img src="images/cart.png" ></div>
+      </div>
+
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+<div class="promo"><strong>Only 5 days left :</strong> 40%  off  Everything !</div>
+    
+
+<div class="slideshow-container" id="Home">
+
+<div class="mySlides fade">
+  <img src="images/s1.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <img src="images/s4.jpg" style="width:100% ">
+ 
+</div>
+
+<div class="mySlides fade">
+  <img src="images/s2.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="images/s3.png" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+
+<!--------------------------Gallery---------------------------->
+ <section>
+   <div class="container">
+    
+      <div class="col2">
+        <img src="images/p1.jpg" width="60%" id="ProductImg">
+
+        <div class="small-img-row">
+
+
+            <img src="images/p1.jpg" class="small-img-col" >
+      
+
+
+        
+            <img src="images/p2.jpg" class="small-img-col">
+          
+
+
+        
+            <img src="images/p4.jpg" class="small-img-col" >
+        
+
+
+            <img src="images/p5.jpg" class="small-img-col" >
+        
+
+        </div>
+
+
+      </div>
+      <div class="col3" id="Buy">
+        
+        <h1>Resistance Bands Set for Exercise</h1>
+        <img src="images/stars.png" id="stars">
+        <h4>$50.00</h4>
+        <input type="number" value="1">
+        <button href="" class="btn1">Add to Cart</button>
+        <button class="btn2">Buy Now</button>
+        <br>
+        <img src="images/garantie.jpg" id="garantie">
+        <h3>About this item</h3><br>
+        <p>WORLD-CLASS CRAFTSMANSHIP & PREMIUM MATERIALS: 100% Malaysian Latex built with the finest materials in the industry!</p><br>
+        <p>QUALITY PROMISE FOR LIFE. At TRIBE we believe in earning your trust and loyalty. Our products are the finest in the industry and offered at the best prices! BUY IT and feel secured that we will take great care of you!</p>
+
+
+
+      </div>
+   
+     
+   </div>
+ </section>
+
+
+<!---------------------------------Payment form------------------------------------------->
+
+<div class="bg">
+  <div class="card">
+      <form>
+        <h1 class="card__title">Enter Payment Information</h1>
+        <div class="card__row">
+          <div class="card__col">
+            <label for="cardNumber" class="card__label">Card Number</label
+            ><input
+              type="text"
+              class="card__input card__input--large"
+              id="cardNumber"
+              placeholder="xxxx-xxxx-xxxx-xxxx"
+            />
+          </div>
+          <div class="card__col card__chip">
+            <img src="img/chip.svg" alt="chip" />
+          </div>
+        </div>
+        <div class="card__col">
+            <label for="cardNumber" class="card__label">Card holder</label
+            ><input
+              type="text"
+              class="card__input card__input--large"
+              id="cardNumber"
+              placeholder="Full name"
+            />
+          </div>
+          <div class="card__col">
+            <label for="cardNumber" class="card__label">Adress</label
+            ><input
+              type="text"
+              class="card__input card__input--large"
+              id="cardNumber"
+              placeholder="Adress"
+            />
+          </div>
+        <div class="card__row">
+          <div class="card__col">
+            <label for="cardExpiry" class="card__label">Expiry Date</label
+            ><input
+              type="text"
+              class="card__input"
+              id="cardExpiry"
+              placeholder="xx/xx"
+            />
+          </div>
+          <div class="card__col">
+            <label for="cardCcv" class="card__label">CCV</label
+            ><input
+              type="text"
+              class="card__input"
+              id="cardCcv"
+              placeholder="xxx"
+            />
+          </div>
+          <div class="card__col card__brand"><i id="cardBrand"></i></div>
+        </div>
+      </form>
+    </div>
+   </div> 
+ <!--------------------------Shipping Info------------------------------->
+ <section class="shop">
+  <h1>Shop ResiBand your way</h1>
+
+   <div class="shipping" >
+
+    <div class="delivery">
+      <img src="images/mo1.png">
+      <h3>New!Pickup</h3>
+    </div>
+
+    <div class="delivery">
+      <img src="images/mo2.png">
+      <h3>Free shipping at 100$</h3>
+    </div>
+
+    <div class="delivery">
+      <img src="images/mo3.png">
+      <h3>DoorDelivery</h3>
+    </div>
+
+    <div class="delivery">
+      <img src="images/mo4.png">
+      <h3>Ship to store</h3>
+    </div>
+     
+
+
+
+   </div>
+ </section>
+
+
+
+
+<!---------------------------------------Video section---------------------------------->
+     <section class="ch">
+    
+    <div class="vi">
+        <video width="400" loop autoplay muted>
+            <source src="images/video.mp4" type="video/mp4" >
+            
+          </video>
+    </div>
+    <div class="para">
+     <h1>WITH YOU EVERY STEP OF THE WAY!</h1>
+     <p class="p">At ResiBand, our love for fitness defines who we are and our desire  to be by your side at every step of your fitness journey defines what we do! <br>
+      We believe that everybody deserves the opportunity to use the very best   equipment, made with extreme care using only the most up to 
+      date technologies and the finest materials available and that is why our products are designed, tested and developed right here in 
+      our dedicated team of health and fitness experts.
+      </p>
+    </div>
+    
+</section>
+<hr>
+
+<!----------------------------------------Product description--------------------------------->
+
+<section class="ch1">
+    <div class="ph1"> <div><img class="toph" src="images/toph1.jpg" alt="1"></div>
+    <!-- <div class="tytle">ONLY THE FINEST MATERIALS!</div> -->
+      <div class="text"> <a><strong class="t">ONLY THE FINEST MATERIALS!
+    </strong> <br>
+    All of our fantastic color-coded bands are double-walled with one layer made 
+        of premium-quality 100% natural Malaysian latex to ensure that they do not dry-out, snap
+         or stretch and the other made of extra-thick, high-grade silicone to ensure consistent 
+         resistance and even more strength!
+        Each one is individually labelled with their maximum resistance and equipped with large,
+         heavy-duty carabiners for stacking multiple bands. Start light, work up and, when you
+          need more resistance. you have it right there in the bag!</a></div>
+        </div>
+        <div class="ph1"> <div><img class="toph" src="images/toph2.jpg" alt="2"></div>
+        <!-- <div class="tytle">ONLY THE FINEST MATERIALS!</div> -->
+          <div class="text"> <a><strong>POWER...LOTS OF IT!</strong> <br>
+         our unique double-webbed ballistic nylon straps with ultra-strong Velcro and extra-large D-rings was step one of making our incredibly strong and secure ankle straps.
+
+            Add in a 0.25" layer of neoprene plush, and they are as comfortable as they are strong! <br>
+            
+            Our padded handles feature soft cuffs and strong Velcro to ensure that your glutes do the work, not your hands!
+            
+            Using high density, premium-grade foam rubber and a fiber-reinforced polymer core cushion, these are built for both comfort and durability!</a></div>
+            </div>
+
+            <div class="ph1"> <div><img class="toph" src="images/toph3.jpg" alt="3"></div>
+            <!-- <div class="tytle">ONLY THE FINEST MATERIALS!</div> -->
+              <div class="text"> <a> <strong>WORKOUTS...ANYTIME, ANYWHERE!</strong> <br>
+                Our super-size door anchor provides the strength and security you demand for your workouts.
+
+                Incorporating our unique double-webbing ballistic nylon straps, this is built to last, no matter how intense your workout!
+                
+                As fitness enthusiasts, we know that this is where the rubber hits the road, and we spared no expense in designing and manufacturing this vital piece of equipment.
+                
+                Let your Tribe Fitness door anchor take the strain rather than accepting cheaper, weaker and less secure alternatives</a></div>
+                </div>
+
+</section>
+<hr>
+
+
+<!--------------------------------------Product Details----------------------------------->
+
+<section class="ch2">
+    <div class="di">
+     
+      <h1 class="details">Product details</h1>
+      <a class="textd">Is Discontinued By Manufacturer : No <br>
+        Product Dimensions : 9.3 x 17 x 18.2 inches; 1.15 Pounds <br>
+        Item model number : FBA_RB47 <br>
+        Date First Available : July 16, 2016 <br>
+        Manufacturer : ResiBand <br>
+        ASIN : B01IL6A0I6 <br>
+        Best Sellers Rank: #815 in Sports & Outdoors  <br>
+        #22 in Exercise Bands & Tubes <br>
+        </a>
+        
+    </div>
+    <div class="id"><img src="images/details.jpg" alt="d" ></div>
+  </section>
+     
+
+  <!------------------------------------About Us----------------------------------->
+  <section class="back">
+  <center><h1 id="about">About Us</h1></center>
+  <section class="sec">
+    
+    <div class="resi"><img src="images/AboutUs.png" alt="r" width="300%"></div>
+    
+    <div class="resitext">
+      <h1>A TEAM IS ONLY AS STRONG AS ITS WEAKEST LINK...</h1><a>...Something that we take very seriously at ResiBand Fitness.
+
+      When we design a new product, we start with this simple truth and go from there.
+       Sure, we could use smaller carabiners to save a buck, use cheap nylon to make the ankle straps
+        or even make the door anchor smaller, but, while others choose to go down this route, we don't 
+        and we back all of this up with our unique Quality for Life Promise!
+      
+      With over 10 years of experience in manufacturing the finest silicone products, you know that you can count 
+      on your Tribe Fitness Resistance Band Set!
+      
+      Buying a ResiBand Fitness product is an investment, one that we will make sure lasts you for years to come!</a></div>
+
+    </section>
+    </section>
+
+<!------------------------------------Contact form------------------------------>
+
+<div class="contact-in" id="contact">
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.181901377493!2d-5.827722685344593!3d35.74633358017917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87c216892bc7%3A0x48bdf85995e9c186!2sSolicode%20Tanger!5e0!3m2!1sen!2sma!4v1615197868379!5m2!1sen!2sma"  width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder="Name" class="contact-form-txt" />
+          <input type="text" placeholder="Email" class="contact-form-txt" />
+          <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+          <input type="submit" name="Submit" class="contact-form-btn" />
+        </form>
+      </div>
+    </div>
+
+<!------------------------------------ Site footer----------------------------------->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify"><a href="#">ResiBand.com</a> <i>STOP GOING TO THE GYM! </i> Our exercise bands were designed using ideal resistance levels to help you maximize your workouts at home or on the go! Used alone or stacked in any combination to achieve your optimal resistance level and desired exercises!</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Help</h6>
+            <ul class="footer-links">
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Disputes & Reports</a></li>
+              <li><a href="#">Buyer Protection</a></li>
+              <li><a href="#">Report IPR infringement</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>      
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#contact">Sitemap</a></li>
+            </ul>
+           
+          </div>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">ResiBand</a>.
+            </p>
+          </div>
+
+        
+        </div>
+      </div>
+</footer>
+
+
+
+
+<!---------------------------------------------JavaScript----------------------------------------->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+    <script src="main.js"></script>
+
+<script>
+var slideIndex = 0;
+
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+ 
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+showSlides();
+</script>
+
+
+
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+
+    <!-- javascript for product gallery -->
+
+    <script type="text/javascript">
+      var Product = document.getElementById("ProductImg");
+      var Small = document.getElementsByClassName("small-img-col")
+
+      Small[0].onmouseover = function()
+      {
+        Product.src = Small[0].src;
+      }
+
+      Small[1].onmouseover = function()
+      {
+        Product.src = Small[1].src;
+      }
+
+      Small[2].onmouseover = function()
+      {
+        Product.src = Small[2].src;
+      }
+
+      Small[3].onmouseover = function()
+      {
+        Product.src = Small[3].src;
+      }
+    </script>
+    <script src="popup.js"></script>
+  </body>
+</html>
